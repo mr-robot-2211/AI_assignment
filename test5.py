@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import combinations
-from foreground_feature_averaging5 import ForegroundFeatureAveraging  # Import the updated model with MiDaS
+from ffa6 import ForegroundFeatureAveraging  # Import the updated model with MiDaS
 
 # Initialize device and model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
